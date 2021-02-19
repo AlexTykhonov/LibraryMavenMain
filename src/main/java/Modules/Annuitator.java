@@ -45,7 +45,7 @@ public class Annuitator {
 
 
     public double getAmountStnd(double paymentSt, double rateSt, int periodSt) {
-        double limit = paymentSt * periodSt/2;
+        double limit = paymentSt;
         double distance = -1;
 
         while (distance < 0) {

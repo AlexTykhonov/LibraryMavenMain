@@ -7,7 +7,7 @@ public class AnnManag {
         Annuitator annuitator = new Annuitator();
         System.out.println(annuitator.annPayment(12,12,100));
 
-        System.out.println("NEAREST LIMIT IS "+annuitator.getAmountStnd(219,64,36));
+        System.out.println("NEAREST LIMIT IS "+annuitator.getAmountStnd(405,123,60));
 
     }
 }
