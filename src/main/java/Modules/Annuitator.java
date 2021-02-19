@@ -51,10 +51,10 @@ public class Annuitator {
         while (distance < 0) {
 
             distance = (limit / periodSt) + (limit * rateSt / 1200) - paymentSt;
-            System.out.println("Limit" + limit);
-            System.out.println("DISTANCE " + distance);
-            System.out.println("Init payment " + paymentSt);
-            System.out.println("Current payment " + (limit / periodSt) + (limit * rateSt / 1200));
+//            System.out.println("Limit" + limit);
+//            System.out.println("DISTANCE " + distance);
+//            System.out.println("Init payment " + paymentSt);
+//            System.out.println("Current payment " + (limit / periodSt) + (limit * rateSt / 1200));
             limit = limit + 10;
         }
         return limit;
@@ -66,11 +66,11 @@ public class Annuitator {
 
         while (distance < 0) {
 
-            distance = annPayment(periodAn,rateAn,limit) - paymentAn;
-            System.out.println("Limit" + limit);
-            System.out.println("DISTANCE " + distance);
-            System.out.println("Init payment " + paymentAn);
-            System.out.println("Current payment " + (limit / periodAn) + (limit * rateAn / 1200));
+            distance = annPayment(periodAn, rateAn, limit) - paymentAn;
+//            System.out.println("Limit" + limit);
+//            System.out.println("DISTANCE " + distance);
+//            System.out.println("Init payment " + paymentAn);
+//            System.out.println("Current payment " + (limit / periodAn) + (limit * rateAn / 1200));
             limit = limit + 10;
         }
         return limit;
